@@ -4,8 +4,11 @@ from app import app
 
 
 @app.route('/', methods=['GET'])
-def index():
-    return render_template("welcome.html", is_authenticated=current_user.is_authenticated)
+def root():
+  if current_user.is_authenticated:
+     return render_template("home.html")
+  return render_template("login.html")
+
 
 @app.route("/protected",)
 @login_required
