@@ -24,15 +24,17 @@ Create a file that looks something like is found in the following block.
 As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
 
 ```bash
+cat <<EOF | sudo tee /etc/systemd/system/flask-example4.service
 [Unit]
 Description=flask-example4
 
 [Service]
-WorkingDirectory=/mnt/opt/flask-example2/
+WorkingDirectory=/mnt/opt/flask-example4/
 ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
 
 [Install]
 WantedBy=multi-user.target
+EOF
 ```
 
 The key commands for reference are: 
