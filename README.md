@@ -8,10 +8,40 @@ flask-example4 is a simple example flask app that uses authentication.  This is 
 ## INSTALLATION
 
 ```bash
+cd /opt
 git clone https://github.com/tlh45342/flask-example4.git
-cd flask-example3
+cd flask-example4
 pip install -r requirements.txt
 python server.py
+```
+
+## SIDEBAR: Notes for creating a service for Linux based distributions
+
+I am putting my notes here now - because I will use them.  Consider these random notes used to implement the Flask APP as a service.
+
+To create a service entry cd /etc/systemd/system
+Create a file that looks something like is found in the following block.
+As much as I hate assumptions - you will need to edit this to your tastes and for your environment.
+
+```bash
+[Unit]
+Description=flask-example4
+
+[Service]
+WorkingDirectory=/mnt/opt/flask-example2/
+ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
+
+[Install]
+WantedBy=multi-user.target
+```
+
+The key commands for reference are: 
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start flask1.service
+sudo systemctl restart flask4.service
+sudo systemctl stop flask1.service
 ```
 
 ## STRUCTURE
