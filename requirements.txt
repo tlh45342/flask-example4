@@ -2,5 +2,4 @@ flask
 flask_login
 blueprint
 app
-colorama
-termcolor
+flask_wtf
