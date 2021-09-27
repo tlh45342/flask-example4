@@ -17,11 +17,6 @@ To make sure you have all the python modules installed.
 pip install -r requirements.txt
 ```
 
-### Frontend
-
-- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
-- [jQuery](http://jquery.com/)
-
 ## STRUCTURE
 
     ├── README.md                   This document
