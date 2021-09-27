@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-flask-example1 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nerly finished. 
+flask-example4 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nerly finished. 
 
 - learning Flask.
 - kicking off your new project.
@@ -8,7 +8,7 @@ flask-example1 is a simple example flask app that uses authentication.  This is 
 ## INSTALLATION
 
 ```bash
-git clone https://github.com/tlh45342/flask-example1.git
+git clone https://github.com/tlh45342/flask-example4.git
 ```
 
 To make sure you have all the python modules installed.
