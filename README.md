@@ -9,12 +9,9 @@ flask-example4 is a simple example flask app that uses authentication.  This is 
 
 ```bash
 git clone https://github.com/tlh45342/flask-example4.git
-```
-
-To make sure you have all the python modules installed.
-
-```bash
+cd flask-example3
 pip install -r requirements.txt
+python server.py
 ```
 
 ## STRUCTURE
