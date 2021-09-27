@@ -31,13 +31,13 @@ python server.py
            ├── frontend
            └── index.html
  
-## TODO
+## Version
 
-- What?
+(09/26/2021) - Not this is a shell template 
 
 ## LICENSE
 
-Apache
+flask-example4 is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
 
 ## ACKNOWLEDGEMENTS
 
