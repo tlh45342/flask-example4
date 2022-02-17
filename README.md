@@ -8,7 +8,7 @@ flask-example4 is a simple example flask app that uses authentication.  This is 
 
 - python is installed
 - pip is installed
-- guinicorn is installed
+- gunicorn is installed
 
 ## INSTALLATION
 
