@@ -6,8 +6,8 @@ flask-example4 is a simple example flask app that uses authentication.  This is 
 - kicking off your new project.
 ## PRESUMPTION
 
--- python is installed
-- pip is instsalled
+- python is installed
+- pip is installed
 - guinicorn is installed
 
 ## INSTALLATION
@@ -70,7 +70,7 @@ sudo systemctl stop flask4.service
  
 ## Version
 
-(09/26/2021) - Not this is a shell template 
+(09/26/2021) - Note: this is a shell template 
 
 ## LICENSE
 
