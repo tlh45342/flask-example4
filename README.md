@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-flask-example4 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished. 
+flask-example4 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever.  This is not nearly finished. 
 
 - learning Flask.
 - kicking off your new project.
