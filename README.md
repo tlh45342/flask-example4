@@ -22,7 +22,7 @@ python server.py
 
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
-I am putting my notes here now - because I will use them.  Consider these random notes used to implement the Flask APP as a service.
+I am putting my notes here now - because I will use them.  Consider these notes used to implement the Flask APP as a service.
 
 To create a service entry cd /etc/systemd/system
 Create a file that looks something like is found in the following block.
