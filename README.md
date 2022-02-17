@@ -1,9 +1,14 @@
 # INTRODUCTION
 
-flask-example4 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nerly finished. 
+flask-example4 is a simple example flask app that uses authentication.  This is not designed to be pretty, or clever per-se.  This is not nearly finished. 
 
 - learning Flask.
 - kicking off your new project.
+## PRESUMPTION
+
+-- python is installed
+- pip is instsalled
+- guinicorn is installed
 
 ## INSTALLATION
 
@@ -41,9 +46,9 @@ The key commands for reference are:
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl start flask1.service
+sudo systemctl start flask4.service
 sudo systemctl restart flask4.service
-sudo systemctl stop flask1.service
+sudo systemctl stop flask4.service
 ```
 
 ## STRUCTURE
