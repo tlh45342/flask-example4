@@ -87,12 +87,12 @@ def login():
                             login_user(user)
                             cursor.close()
                             conn.close() 
-                            return redirect(url_for('index'))                        
+                            return redirect(url_for('home'))                        
                     except Exception as e:
                         #print("ex:",e)
                         cursor.close()
                         conn.close() 
-                        return redirect(url_for('index')) 
+                        return redirect(url_for('home')) 
             else:
                 return render_template('login.html',title='Login', form=form) 
         else:
