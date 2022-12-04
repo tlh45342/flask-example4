@@ -35,7 +35,7 @@ Description=flask-example4
 
 [Service]
 WorkingDirectory=/mnt/opt/flask-example4/
-ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:8080 -w 4 server:app
+ExecStart=/usr/local/bin/gunicorn --certfile=cert.pem --keyfile=key.pem --bind 0.0.0.0:443 server:app
 
 [Install]
 WantedBy=multi-user.target
