@@ -104,6 +104,7 @@ sudo systemctl stop flask4.service
 ## Version
 
 (09/26/2021) - Note: this is a shell template 
+(12/09/2022) - Added docker files.  Cleaned a little.
 
 ## LICENSE
 
@@ -111,5 +112,5 @@ flask-example4 is licensed under the Apache License, Version 2.0. See LICENSE fo
 
 ## ACKNOWLEDGEMENTS
 
-Many thanks to Python, Flask and other good stacks.
-Please note that this does include http://getskeleton.com/ skeleton.css and normal.css
+Many thanks to Python, Flask and other good stacks.  
+
