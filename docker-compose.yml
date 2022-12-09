@@ -1,0 +1,7 @@
+version: "3"
+services:
+  example4:
+    build: .
+    image: example4
+    ports:
+      - "443:443"
