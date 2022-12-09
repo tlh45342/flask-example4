@@ -20,6 +20,39 @@ pip install -r requirements.txt
 python server.py
 ```
 
+## DOCKER
+
+If wanting to create as a docker image the following command can be used.
+
+```bash
+git clone https://github.com/tlh45342/flask-example4.git
+cd flask-example4
+docker-compose up -d
+```
+
+*One line command to build docker image.*
+```bash
+docker build github.com/tlh45342/flask-example4#main 
+```
+Please note:  After October 1, 2020 github changed the default branch from **MASTER** to **MAIN**.  
+So please remember to put #main at the end of the request - or rename your branch in github to master.  
+As of this writing "docker build github..." uses **MASTER** as the default.
+
+The result might be
+
+```bash
+docker run -it -d -p 443:443 dca6
+```
+
+# Quick note about docker image clean up.
+PLEASE REVIEW THIS CAREFFULLY BEFORE USING.
+This would delete containers and images that aren't running.
+Only use this if this what you intend.
+```bash
+docker container prune -f
+docker image prune -a -f
+```
+
 ## SIDEBAR: Notes for creating a service for Linux based distributions
 
 I am putting my notes here now - because I will use them.  Consider these notes used to implement the Flask APP as a service.
