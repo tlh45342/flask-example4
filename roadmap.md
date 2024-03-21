@@ -23,7 +23,7 @@ flask-example4
 flask-example5
 
 flask-example6
-- Introduce 'appconfig' database
+- Introduce 'appconfig' table for database
   
 flask-example7
 - ueses above AND salt/secret store in 'appconfig' portion of database
