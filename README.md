@@ -78,10 +78,10 @@ EOF
 The key commands for reference are: 
 
 ```bash
-sudo systemctl daemon-reload
-sudo systemctl start flask4.service
-sudo systemctl restart flask4.service
-sudo systemctl stop flask4.service
+systemctl daemon-reload
+systemctl start flask-example4
+systemctl restart flask-example4
+systemctl stop flask-example4
 ```
 
 ## STRUCTURE
